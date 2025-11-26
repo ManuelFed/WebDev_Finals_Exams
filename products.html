@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Toy Story</title>
+        <link rel="icon" type="image/x-icon" href="/media/favicon/toy-story-logo.ico">
+
+        <link rel="stylesheet" href="/rsc/css/bootstrap.min.css" />
+        <script src="/rsc/js/bootstrap.bundle.min.js"></script>
+
+        <style>
+          .hover-link {
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+          }
+
+          .hover-link:hover {
+            color: #6EC6FF;
+            text-shadow: 0 0 8px #6EC6FF;
+            cursor: pointer;
+          }
+
+          .nav-item:hover {
+            background-color: rgb(236, 236, 236);
+            border-radius: 40px;
+          }
+
+          .links:hover {
+            text-decoration: underline;
+            text-decoration-color: 	#FFD700;
+          }
+
+          .prod {
+            object-fit: cover;
+            width: 300px;
+            height: 300px;
+            overflow: auto;
+          }
+        </style>
+    </head>
+    <!-- Header: top navigation and logo -->
+  <header style="background-color: black; padding: 20px 0;">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <!-- Logo + Title -->
+            <a href="#" class="d-flex align-items-center mb-2 mb-lg-0">
+                <img src="/media/logo/Toy_Story.png" alt="Logo" width="90" class="me-2">
+            </a>
+
+            <!-- Navigation -->
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link fw-bold"
+                    style="color: #fcc334;">
+                    Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link fw-bold"
+                    style="color: #fcc334;">
+                    Cinema
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/characters.html" class="nav-link fw-bold"
+                    style="color: #fcc334;">
+                    Characters
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/products.html" class="nav-link fw-bold"
+                    style="color: #fcc334;">
+                    Products
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+  <body class="bg-black">
+    <!-- Hero: banner image for products page -->
+    <section style="background-image: url('/media/hero/toy-story-hero-2nd.jpg'); background-size: cover;
+      background-position: center; height: 800px">">
+    </section>
+
+    <!-- Product Gallery -->
+    <div class="container py-5">
+      <div class="row g-5 align-items-center">
+        <div class="col-12 mb-4">
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 text-white text-center"
+          >
+            <!-- Product 1 -->
+            <div class="col">
+              <img
+                src="/media/products/woody.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Totoro 1"
+              />
+              <h5 class="fw-bold mt-2">
+                Disney Collection Toy Story Woody
+              </h5>
+              <h4 class="mt-4">₱37,901.14</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col">
+              <img
+                src="/media/products/funko-woody.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Totoro 2"
+              />
+              <h5 class="fw-bold mt-2">
+                Funko POP! Pixar Story Tin Limited
+              </h5>
+              <h4 class="mt-4">₱3,574.74</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col">
+              <img
+                src="media/products/buzz.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Totoro 3"
+              />
+              <h5 class="fw-bold mt-2">
+                Disney Pixar Talking Buzz Action Figure
+              </h5>
+              <h4 class="mt-4">₱1,323.88</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col">
+              <img
+                src="media/products/buzz-cup.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Totoro 4"
+              />
+              <h5 class="fw-bold mt-2">
+                Disney Pixar Buzz Inside Colored Mug
+              </h5>
+              <h4 class="mt-4">₱642.82</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="col">
+              <img
+                src="/media/products/toy-story-tshirt.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Ghibli Vinyl"
+              />
+              <h5 class="fw-bold mt-2">
+                Abos Design Disney Pixar T-Shirt
+              </h5>
+              <h4 class="mt-4">₱2,167.88</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col">
+              <img
+                src="/media/products/planet-pizza-bag.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Totoro Paper Theatre"
+              />
+              <h5 class="fw-bold mt-2">Pixar Toy Story Bag Planeta Pizza</h5>
+              <h4 class="mt-4">₱3,203.60</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="col">
+              <img
+                src="/media/products/planet-pizza-alien.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Totoro Deluxe Paper"
+              />
+              <h5 class="fw-bold mt-2">Pixar Toy Story Alien Action Figure</h5>
+              <h4 class="mt-4">₱1,585.12</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="col">
+              <img
+                src="/media/products/toy-story-monopoly.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Storyboard"
+              />
+              <h5 class="fw-bold mt-2">Toy Story Monopoly Junior Version</h5>
+              <h4 class="mt-4">₱323.61</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="col">
+              <img
+                src="/media/products/toy-story-bed.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Bus Stop Box"
+              />
+              <h5 class="fw-bold mt-2">
+                Delta Children Disney Pixar Toddler-Bed
+              </h5>
+              <h4 class="mt-4">₱7,327.85</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+
+            <!-- Product 10 -->
+            <div class="col">
+              <img
+                src="/media/products/planet-pizza-alien-bag.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Image Board"
+              />
+              <h5 class="fw-bold mt-2">Pixar Toy Story Alien Pizza Planet Box</h5>
+              <h4 class="mt-4">₱3,510.01</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+            <div class="col">
+              <img
+                src="/media/products/PixarxAdidas-R1-Sneakers.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Image Board"
+              />
+              <h5 class="fw-bold mt-2">Disney Pixar x AdidasR1 'Toy Story'</h5>
+              <h4 class="mt-4">₱15,298.14</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+            <div class="col">
+              <img
+                src="/media/products/toy-story-dray&erase.webp"
+                class="prod img-fluid rounded shadow"
+                alt="Image Board"
+              />
+              <h5 class="fw-bold mt-2">
+                Disney Pixar Draw and Erase Board
+              </h5>
+              <h4 class="mt-4">₱764.42</h4>
+              <button class="btn btn-success btn-lg mt-3" onclick="alert('Item added to cart!')">Add to Cart</button>
+              <button class="btn btn-primary btn-lg mt-3" onclick="alert('Thank you for your purchase!')">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer: social links, developers, and navigation -->
+    <footer style="background-color: black; padding: 50px 0;">
+            <div class="container">
+                <div class="row text-center text-md-start">
+
+                    <!-- Column 1 -->
+                    <div class="col-md-4 mb-4">
+                        <img src="/media/logo/Toy_Story.png" alt="Logo" width="90" class="mb-3">
+                        <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+                            <a href="#" class="text-decoration-none" style="color: #1877F2;">FB</a>
+                            <a href="#" class="text-decoration-none" style="color: #E1306C;">IG</a>
+                            <a href="#" class="text-decoration-none" style="color: #AAB8C2;">X</a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="col-md-4 mb-4">
+                        <h4 style="color: #fcc334;">
+                            Developed by:
+                        </h5>
+                        <p style="color: #fcc334;" class="mb-1">Duran, Althea Crisheil C.</p>           
+                        <p style="color: #fcc334;" class="mb-1">Haduca, Princess Eulla P. </p>
+                        <p style="color: #fcc334;" class="mb-1">Ocampo, Neil O'brein E.</p>
+                        <p style="color: #fcc334;" class="mb-1">Tudayan, Manuel Federico D.</p>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="col-md-4 mb-4">
+                        <h4 style="color: #fcc334;">
+                            Other Pages
+                        </h4>
+                        <ul class="list-unstyled">
+                            <li class="links"><a href="/index.html" class="text-decoration-none" style="color: #fcc334;">Home</a></li>
+                            <li class="links"><a href="#" class="text-decoration-none" style="color: #fcc334;">Cinema</a></li>
+                            <li class="links"><a href="/characters.html" class="text-decoration-none" style="color: #fcc334;">Characters</a></li>
+                            <li class="links"><a href="/products.html" class="text-decoration-none" style="color: #fcc334;">Products</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+  </body>
+</html>

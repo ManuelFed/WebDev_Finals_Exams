@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Toy Story</title>
+        <link rel="icon" type="image/x-icon" href="/media/favicon/toy-story-logo.ico">
+
+        <link rel="stylesheet" href="/rsc/css/bootstrap.min.css" />
+        <script src="/rsc/js/bootstrap.bundle.min.js"></script>
+
+        <style>
+        .hover-link {
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+
+        .hover-link:hover {
+            color: #6EC6FF;
+            text-shadow: 0 0 8px #6EC6FF;
+            cursor: pointer;
+        }
+
+        .nav-item:hover {
+            background-color: rgb(236, 236, 236);
+            border-radius: 40px;
+        }
+
+        .links:hover {
+            text-decoration: underline;
+            text-decoration-color: 	#FFD700;
+        }
+        </style>
+    </head>
+    <!-- Header: top navigation and logo -->
+    <header style="background-color: black; padding: 20px 0;">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <!-- Logo + Title -->
+            <a href="#" class="d-flex align-items-center mb-2 mb-lg-0">
+                <img src="/media/logo/Toy_Story.png" alt="Logo" width="90" class="me-2">
+            </a>
+
+            <!-- Navigation -->
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link fw-bold"
+                    style="color: #fcc334;">
+                    Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link fw-bold"
+                    style="color: #fcc334;">
+                    Cinema
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/characters.html" class="nav-link fw-bold"
+                    style="color: #fcc334;">
+                    Characters
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/products.html" class="nav-link fw-bold"
+                    style="color: #fcc334;">
+                    Products
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <body class="text-bg-dark mb-3">
+        <!-- Hero: full-screen background image banner -->
+        <section  style="background-image: url('/media/hero/toy-story-hero.jpg'); background-size: cover;
+                background-position: center; height: 800px">">
+        </section>
+
+        <!-- Movie Intro: poster, title, badges, and primary call-to-action -->
+        <section class="bg-black text-white py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Movie Poster -->
+                    <div class="col-md-3 text-center">
+                        <img src="/media/toy-story-poster.webp" class="img-fluid rounded shadow" alt="...">
+                    </div>
+
+                    <!-- Movie Info -->
+                    <div class="col-md-9">
+                        <h2 class="display-5 fw-bold">Disney • Pixar</h2>
+                        <h1 class="display-4 fw-bold text-warning">TOY STORY</h1>
+                        <div class="d-flex flex-wrap gap-3 mt-3">
+                        <span class="badge bg-secondary">G</span>
+                        <span class="badge bg-secondary">1h 21m</span>
+                        <span class="badge bg-secondary">1995</span>
+                        <span class="badge bg-success">100% Rating</span>
+                        </div>
+                        <p class="mt-4 lead">Buzz and Woody soar through the sky in this animated classic that launched a franchise.</p>
+                        <a href="#" class="btn btn-primary btn-lg mt-2">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Synopsis: short description of the movie plot -->
+        <section class="bg-black text-white py-5">
+            <div class="container text-center" style="max-width: 1290px;">
+                <h2 class="fw-bold">Synopsis</h2>
+                <span>Set in a world where toys have a life of their own when people are
+                not present, Toy Story takes moviegoers on a fantastic fun-filled
+                journey, viewed mostly through the eyes of two rival toys - Woody (Tom
+                Hanks), a pull-string talking cowboy, and Buzz Lightyear (Tim Allen),
+                a superhero space action-figure. The comically-mismatched duo
+                eventually learn to put aside their differences when circumstances
+                separate them from their owner, Andy, and they find themselves on a
+                hilarious adventure-filled mission where the only way they can survive
+                is to form an uneasy alliance.</span>
+            </div>
+        </section>
+
+        <!-- Highlights: key scenes and a media panel -->
+        <section class="bg-black text-white py-5">
+            <div class="container text-center"> 
+                <h2 class="fw-bold">Movie Highlights</h2>
+                <div class="row">
+                    <div class="col-md-6" style="height: 350px; overflow-y:auto">
+                        <div class="highlight mb-4">
+                            <div class="card-title fw-bold">Opening Heist Imagination</div>
+                            <div class="card-description">Andy plays out a bank robbery using his toys, Mr. Potato Head as the villain, Woody as the sheriff, and Slinky Dog as backup. This sets the tone for the toys’ secret lives</div>
+                        </div>
+                        <div class="highlight mb-4">
+                            <div class="card-title fw-bold">Buzz Lightyear’s Arrival</div>
+                            <div class="card-description">Buzz lands in Andy’s room, believing he’s a real space ranger. His flashy gadgets and charisma quickly make him the new favorite, sparking Woody’s jealousy</div>
+                        </div>
+                        <div class="highlight mb-4">
+                            <div class="card-title fw-bold">“You Are a Toy!” Confrontation</div>
+                            <div class="card-description">Woody shouts the iconic line at Buzz, forcing him to confront the truth about being a toy. This moment is emotionally pivotal and deeply human</div>
+                        </div>
+                        <div class="highlight mb-4">
+                            <div class="card-title fw-bold">Pizza Planet Adventure</div>
+                            <div class="card-description">Woody and Buzz sneak into a delivery truck to reach Pizza Planet, leading to chaos in the arcade claw machine where they’re captured by Sid</div>
+                        </div>
+                        <div class="highlight mb-4">
+                            <div class="card-title fw-bold">Sid’s Toy Torture</div>
+                            <div class="card-description">Sid’s twisted creativity introduces hybrid toys made from broken parts. Woody and Buzz must escape before Sid destroys Buzz with a rocket</div>
+                        </div>
+                        <div class="highlight mb-4">
+                            <div class="card-title fw-bold">Buzz’s Existential Crisis</div>
+                            <div class="card-description">After seeing a TV ad, Buzz realizes he’s not a real space ranger. He tries to fly and falls, breaking his arm, one of the film’s most heartbreaking scenes</div>
+                        </div>
+                        <div class="highlight mb-4">
+                            <div class="card-title fw-bold">Toy Rebellion and Rescue</div>
+                            <div class="card-description">Woody rallies Sid’s mutant toys to scare him straight. Buzz regains hope, and they escape just in time to reunite with Andy</div>
+                        </div>
+                        <div class="highlight mb-4">
+                            <div class="card-title fw-bold">The Flying Finale</div>
+                            <div class="card-description">Woody and Buzz launch into the air using Sid’s rocket, glide into Andy’s car, and finally earn mutual respect and friendship</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/media/toy-story2.gif" alt="" class="img-fluid rounded" style="width: 680px; height: 350px; object-fit: cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artists: horizontal scroll of cast cards -->
+        <section class="bg-black text-white py-5">
+            <div class="container text-center">
+                <h4 class="fw-bold">Artists</h4>
+            </div>
+            <!-- HORIZONTAL SCROLLABLE FLEX ROW -->
+            <div class="container d-flex flex-nowrap overflow-x-scroll overflow-y-hidden scroll-row pb-2" style="max-width: 1290px;">
+                <!-- repeatable card -->
+                <div class="card bg-secondary text-white me-2" style="width: 200px; flex-shrink: 0;">
+                    <img src="/media/artists/tom-hanks.jpg" class="card-img-top img-fluid rounded" alt="actor1" style="width: 300px; height: 300px; object-fit: cover;">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">Tom Hanks</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #C47F2B">Woody</div>
+                </div>
+
+                <div class="card bg-secondary text-white me-2" style="width: 200px; flex-shrink: 0;">
+                    <img src="/media/artists/tim-allen.jpg" class="card-img-top img-fluid rounded" alt="actor2" style="width: 300px; height: 300px; object-fit: cover;">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">Tim Allen</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #6EC6FF">Buzz Lightyear</div>
+                </div>
+
+                <div class="card bg-secondary text-white me-2" style="width: 200px; flex-shrink: 0;">
+                    <img src="/media/artists/don-rickles.jpg" class="card-img-top img-fluid rounded" alt="actor3" style="width: 300px; height: 300px; object-fit: cover;">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">Don Rickles</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #A0522D">Mr. Potato Head</div>
+                </div>
+
+                <div class="card bg-secondary text-white me-2" style="width: 200px; flex-shrink: 0;">
+                    <img src="/media/artists/jim-varney.jpg" class="card-img-top img-fluid rounded" alt="actor4" style="width: 300px; height: 300px; object-fit: cover;">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">Jim Varney</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #8B4513">Slinky Dog</div>
+                </div>
+
+                <div class="card bg-secondary text-white me-2" style="width: 200px; flex-shrink: 0;">
+                    <img src="/media/artists/wallace-shawn.jpg" class="card-img-top img-fluid rounded" alt="actor5" style="width: 300px; height: 300px; object-fit: cover;">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">Wallace Shawn</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #4CAF50">Rex</div>
+                </div>
+
+                <div class="card bg-secondary text-white me-2" style="width: 200px; flex-shrink: 0;">
+                    <img src="/media/artists/john-ratzenberger.jpg" class="card-img-top img-fluid rounded" alt="actor6" style="width: 300px; height: 300px; object-fit: cover;">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">John Ratzenberger</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #FFC0CB">Hamm</div>
+                </div>
+
+                <div class="card bg-secondary text-white me-2" style="width: 200px;  flex-shrink: 0;">
+                    <img src="/media/artists/annie-potts.jpg" class="card-img-top img-fluid rounded" alt="actor7" style="width: 300px; height: 300px; object-fit: cover;">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">Annie Potts</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #FFB6C1">Bo Peep</div>
+                </div>
+
+                <div class="card bg-secondary text-white me-2" style="width: 200px;  flex-shrink: 0;">
+                    <img src="/media/artists/erik-von-detten.jpg" class="card-img-top img-fluid rounded" alt="actor8" style="width: 300px; height: 300px; object-fit: cover;">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">Erik von Detten</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #333333">Sid Philips</div>
+                </div>
+
+                <div class="card bg-secondary text-white me-2" style="width: 200px;  flex-shrink: 0;">
+                    <img src="/media/artists/john-morris.jpg" class="card-img-top img-fluid rounded" alt="actor9" style="width: 300px; height: 300px; object-fit: cover;">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">John Morris</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #2196F3">Andy Davis</div>
+                </div>
+
+                <div class="card bg-secondary text-white me-2" style="width: 200px;  flex-shrink: 0;">
+                    <img src="/media/artists/r-lee-ermey.jpg" class="card-img-top img-fluid rounded" alt="actor111" style="width: 300px; height: 300px; object-fit: cover;"">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">R. Lee Ermey</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #2E7D32">Sarge</div>
+                </div>
+
+                <div class="card bg-secondary text-white me-2" style="width: 200px;  flex-shrink: 0;">
+                    <img src="/media/artists/sarah-freeman.jpg" class="card-img-top img-fluid rounded" alt="actor12" style="width: 300px; height: 300px; object-fit: cover;">
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem;">Sarah Freeman</div>
+                    <div class="card-body p-1 text-center small fw-bold" style="font-size: 0.75rem; color: #F48FB1">Hannah (Sid's Sister)</div>
+                </div>
+        </section>
+
+        <!-- Showings & Credits: cinema availability and production credits -->
+        <section class="bg-black text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card bg-black text-white me-5">
+                            <h3>Available in Cinemas</h3>
+                            <img src="/media/sm-city.png" alt="" class="mb-4">
+                            <img src="/media/toy-story1.gif" alt="" class="img-fluid rounded" style="width: 800px; height: 265px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-white">
+                            <h3>Main Production Credits</h3>
+
+                            <div class="container">
+                                <h5 class="mb-0" style="color: #575757;">Director:</h5>
+                                <h6 class="hover-link">John Lasseter</h6>
+                                <h5 class="mb-0" style="color: #575757;">Original Story By:</h5>
+                                <h6 class="hover-link">John Lasseter, Pete Docter, Andrew Stanton, Joe Ranft</h6>
+                                <h5 class="mb-0" style="color: #575757;">Screenplay By:</h5>
+                                <h6 class="hover-link">Joss Whedon, Andrew Stanton, Joel Cohen, Alec Sokolow</h6>
+                                <h5 class="mb-0" style="color: #575757;">Producer:</h5>
+                                <h6 class="hover-link">Ralph Guggenheim, Bonnie Arnold</h6>
+                                <h5 class="mb-0" style="color: #575757;">Executive Producer:</h5>
+                                <h6 class="hover-link">Steve Jobs</h6>
+                                <h5 class="mb-0" style="color: #575757;">Music Composer:</h5>
+                                <h6 class="hover-link">Randy Newman</h6>
+                                <h5 class="mb-0" style="color: #575757;">Editor:</h5>
+                                <h6 class="hover-link">Robert Gordon</h6>
+                                <h5 class="mb-0" style="color: #575757;">Production Company:</h5>
+                                <h6 class="hover-link">Pixar Animation Studios</h6>
+                                <h5 class="mb-0" style="color: #575757;">Distributor:</h5>
+                                <h6 class="hover-link">Walt Disney Pictures</h6>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Footer: social links, developers, and page links -->
+        <footer style="background-color: black; padding: 50px 0;">
+            <div class="container">
+                <div class="row text-center text-md-start">
+
+                    <!-- Column 1 -->
+                    <div class="col-md-4 mb-4">
+                        <img src="/media/logo/Toy_Story.png" alt="Logo" width="90" class="mb-3">
+                        <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+                            <a href="#" class="text-decoration-none" style="color: #1877F2;">FB</a>
+                            <a href="#" class="text-decoration-none" style="color: #E1306C;">IG</a>
+                            <a href="#" class="text-decoration-none" style="color: #AAB8C2;">X</a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="col-md-4 mb-4">
+                        <h4 style="color: #fcc334;">
+                            Developed by:
+                        </h5>
+                        <p style="color: #fcc334;" class="mb-1">Duran, Althea Crisheil C.</p>           
+                        <p style="color: #fcc334;" class="mb-1">Haduca, Princess Eulla P. </p>
+                        <p style="color: #fcc334;" class="mb-1">Ocampo, Neil O'brein E.</p>
+                        <p style="color: #fcc334;" class="mb-1">Tudayan, Manuel Federico D.</p>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="col-md-4 mb-4">
+                        <h4 style="color: #fcc334;">
+                            Other Pages
+                        </h4>
+                        <ul class="list-unstyled">
+                            <li class="links"><a href="/index.html" class="text-decoration-none" style="color: #fcc334;">Home</a></li>
+                            <li class="links"><a href="#" class="text-decoration-none" style="color: #fcc334;">Cinema</a></li>
+                            <li class="links"><a href="/characters.html" class="text-decoration-none" style="color: #fcc334;">Characters</a></li>
+                            <li class="links"><a href="/products.html" class="text-decoration-none" style="color: #fcc334;">Products</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>             
